@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:background="@color/white">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <View
+            android:id="@+id/HomeBannerView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/home_banner"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/StoreLocationTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Store A"
+            android:textColor="@color/white"
+            android:textStyle="normal"
+            android:textSize="15sp"
+            android:layout_marginStart="5dp"
+            app:layout_constraintBottom_toBottomOf="@+id/CurrentLocationTextView"
+            app:layout_constraintStart_toEndOf="@+id/CurrentLocationTextView"/>
+
+        <ImageView
+            android:id="@+id/profilePictureImgView"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_baseline_account_circle_24"
+            app:layout_constraintBottom_toBottomOf="@+id/HomeBannerView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/CurrentLocationTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You are at:"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="@+id/profilePictureImgView"
+            app:layout_constraintStart_toStartOf="@+id/WelcomeBackTextView"
+            app:layout_constraintTop_toBottomOf="@+id/WelcomeBackTextView" />
+
+        <TextView
+            android:id="@+id/WelcomeBackTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome,"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:textStyle="normal"
+            android:layout_marginStart="10dp"
+            app:layout_constraintBottom_toBottomOf="@+id/HomeBannerView"
+            app:layout_constraintStart_toStartOf="@+id/HomeBannerView"
+            app:layout_constraintTop_toTopOf="@+id/HomeBannerView"
+            app:layout_constraintVertical_bias="0.228" />
+
+        <TextView
+            android:id="@+id/NameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Bob"
+            android:textStyle="normal"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            app:layout_constraintBottom_toBottomOf="@+id/WelcomeBackTextView"
+            app:layout_constraintStart_toEndOf="@+id/WelcomeBackTextView" />
+
+
+        <LinearLayout
+            android:id="@+id/todayMealPlanLinearLayout"
+            android:layout_width="190dp"
+            android:layout_height="325dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/HomeBannerView"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="315dp"
+                app:cardCornerRadius="15dp"
+                app:cardBackgroundColor="#E4E6E3"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                app:cardElevation="4dp"
+                app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+                app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+                app:layout_constraintStart_toStartOf="@+id/linearLayout"
+                app:layout_constraintTop_toTopOf="@+id/linearLayout">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/dinnerCardView"
+                        app:cardCornerRadius="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_marginTop="10dp"
+                        app:cardBackgroundColor="#E4E6E3"
+                        app:cardElevation="7dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/lunchCardView" >
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/dinnerIMG"
+                                android:layout_width="180dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/dinnerimgapp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toEndOf="@+id/dinnerIDView"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <View
+                                android:id="@+id/dinnerIDView"
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.0"
+                                android:background="@drawable/todays_menu_tags"/>
+
+                            <TextView
+                                android:id="@+id/dinnerItemTextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:rotation="270"
+                                android:text="Curry"
+                                android:textColor="@color/black"
+                                app:layout_constraintBottom_toBottomOf="@+id/dinnerIDView"
+                                app:layout_constraintEnd_toEndOf="@+id/dinnerIDView"
+                                app:layout_constraintTop_toTopOf="@+id/dinnerIDView" />
+
+                            <TextView
+                                android:id="@+id/dinnerTagView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:rotation="270"
+                                android:layout_marginEnd="25dp"
+                                android:text="Dinner:"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="@+id/dinnerIDView"
+                                app:layout_constraintEnd_toEndOf="@+id/dinnerIDView"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="@+id/dinnerIDView" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/lunchCardView"
+                        app:cardCornerRadius="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="90dp"
+                        app:cardBackgroundColor="#E4E6E3"
+                        app:cardElevation="4dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/breakfastCardView" >
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/lunchIMG"
+                                android:layout_width="180dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/lunchimgapp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toEndOf="@+id/lunchIDView"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <View
+                                android:id="@+id/lunchIDView"
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/todays_menu_tags"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.0" />
+
+                            <TextView
+                                android:id="@+id/lunchItemTextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:rotation="270"
+                                android:layout_marginStart="5dp"
+                                android:text="Baguette"
+                                android:textColor="@color/black"
+                                app:layout_constraintBottom_toBottomOf="@+id/lunchIDView"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="@+id/lunchIDView" />
+
+                            <TextView
+                                android:id="@+id/lunchTagView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="25dp"
+                                android:rotation="270"
+                                android:text="Lunch:"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="@+id/lunchIDView"
+                                app:layout_constraintEnd_toEndOf="@+id/lunchIDView"
+                                app:layout_constraintStart_toStartOf="@+id/lunchIDView"
+                                app:layout_constraintTop_toTopOf="@+id/lunchIDView" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/breakfastCardView"
+                        app:cardCornerRadius="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_height="90dp"
+                        app:cardBackgroundColor="#E4E6E3"
+                        app:cardElevation="4dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/todaysMenuHeaderView" >
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <ImageView
+                                android:id="@+id/breakfastIMG"
+                                android:layout_width="180dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/breakfastimgapp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toEndOf="@+id/breakfastIDView"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <View
+                                android:id="@+id/breakfastIDView"
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/todays_menu_tags"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.0" />
+
+                            <TextView
+                                android:id="@+id/breakfastItemTextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:rotation="270"
+                                android:textStyle="normal"
+                                android:textColor="@color/black"
+                                android:text="Granola"
+                                android:layout_marginStart="5dp"
+                                app:layout_constraintBottom_toBottomOf="@+id/breakfastIDView"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="@+id/breakfastIDView" />
+
+                            <TextView
+                                android:id="@+id/breakfastTagView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:rotation="270"
+                                android:layout_marginEnd="25dp"
+                                android:text="Breakfast:"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="@+id/breakfastIDView"
+                                app:layout_constraintEnd_toEndOf="@+id/breakfastIDView"
+                                app:layout_constraintStart_toStartOf="@+id/breakfastIDView"
+                                app:layout_constraintTop_toTopOf="@+id/breakfastIDView" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/todaysMenuHeaderView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Today's Menu:"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/storeCapacityLinearLayout"
+            android:layout_width="190dp"
+            android:layout_height="205dp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/todayMealPlanLinearLayout"
+            app:layout_constraintTop_toBottomOf="@+id/HomeBannerView">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="195dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                app:cardElevation="7dp"
+                app:cardCornerRadius="15dp"
+                app:cardBackgroundColor="#E4E6E3">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <ImageView
+                        android:id="@+id/storeCapacityIMGView"
+                        android:layout_width="190dp"
+                        android:layout_height="190dp"
+                        android:src="@drawable/ic_baseline_panorama_fish_eye_24"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/storeCapacityHeaderView" />
+
+                    <TextView
+                        android:id="@+id/storeCapacityTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" 70%"
+                        android:textStyle="normal"
+                        android:textSize="40sp"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/storeCapacityHeaderView" />
+
+                    <TextView
+                        android:id="@+id/storeCapacityHeaderView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Current Store Capacity:"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/carParkCapacityLinearLayout"
+            android:layout_marginTop="30dp"
+            android:layout_width="190dp"
+            android:layout_height="205dp"
+            app:layout_constraintEnd_toEndOf="@+id/todayMealPlanLinearLayout"
+            app:layout_constraintStart_toStartOf="@+id/todayMealPlanLinearLayout"
+            app:layout_constraintTop_toBottomOf="@+id/todayMealPlanLinearLayout">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="195dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="7dp"
+                app:cardBackgroundColor="#E4E6E3">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/carParkCapacityTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" 30%"
+                        android:textAlignment="center"
+                        android:textStyle="normal"
+                        android:textColor="@color/black"
+                        android:textSize="40sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="@+id/carParkCapacityIMGView"
+                        app:layout_constraintStart_toStartOf="@+id/carParkCapacityIMGView"
+                        app:layout_constraintTop_toBottomOf="@+id/carParkCapacityHeaderView" />
+
+                    <ImageView
+                        android:id="@+id/carParkCapacityIMGView"
+                        android:layout_width="190dp"
+                        android:layout_height="190dp"
+                        android:src="@drawable/ic_baseline_panorama_fish_eye_24"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/carParkCapacityHeaderView" />
+
+                    <TextView
+                        android:id="@+id/carParkCapacityHeaderView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Car Park Capacity:"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/favouriteRecipesLinearLayout"
+            android:layout_marginTop="30dp"
+            android:layout_width="190dp"
+            android:layout_height="325dp"
+            app:layout_constraintEnd_toEndOf="@+id/storeCapacityLinearLayout"
+            app:layout_constraintStart_toStartOf="@+id/storeCapacityLinearLayout"
+            app:layout_constraintTop_toBottomOf="@+id/storeCapacityLinearLayout"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="315dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                app:cardBackgroundColor="#E4E6E3"
+                app:cardElevation="7dp"
+                app:cardCornerRadius="15dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/favouritesHeaderView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Favourites:"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <Button
+                        android:id="@+id/favouritesButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="View All"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>

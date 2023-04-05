@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "647886599860",
+    "project_id": "shopping-assistant-project",
+    "storage_bucket": "shopping-assistant-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647886599860:android:d05f22234562bbfca0c9e1",
+        "android_client_info": {
+          "package_name": "uk.ac.cs3mdd.shoppingassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647886599860-fnav5ghq8tfhlsvt5emf1qnoofvu9f8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAG-7zAzLjYa_uygzrwa2H_6Mw5z4jDSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647886599860-fnav5ghq8tfhlsvt5emf1qnoofvu9f8k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
