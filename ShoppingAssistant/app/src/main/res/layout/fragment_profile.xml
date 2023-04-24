@@ -15,12 +15,12 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/logoutConstraintView"
+            android:layout_marginTop="30dp"
             android:layout_width="match_parent"
             android:layout_height="75dp"
-            android:layout_marginTop="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/mySettingsConstraintView">
+            app:layout_constraintTop_toBottomOf="@+id/myActivityConstraintLayout">
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
@@ -28,8 +28,7 @@
                 app:cardBackgroundColor="#E4E6E3"
                 app:cardCornerRadius="35dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" >
+                app:layout_constraintStart_toStartOf="parent">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -46,10 +45,10 @@
 
                     <TextView
                         android:id="@+id/logoutDescriptionTextView"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginTop="10dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
                         android:text="Log out of your Account"
                         android:textColor="@color/black"
                         app:layout_constraintStart_toEndOf="@+id/logoutImage"
@@ -82,78 +81,8 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/mySettingsConstraintView"
-            android:layout_marginTop="20dp"
-            android:layout_width="match_parent"
-            android:layout_height="75dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/myActivityConstraintLayout">
-
-            <androidx.cardview.widget.CardView
-                android:id="@+id/mySettingsCardView"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:cardBackgroundColor="#E4E6E3"
-                app:cardCornerRadius="35dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" >
-
-                <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <Button
-                        android:id="@+id/settingsButton"
-                        android:layout_width="40dp"
-                        android:layout_height="100dp"
-                        android:text=">"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                    <TextView
-                        android:id="@+id/settingsDescriptionTextView"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Update your Settings"
-                        android:textColor="@color/black"
-                        app:layout_constraintStart_toEndOf="@+id/settingsImage"
-                        app:layout_constraintTop_toBottomOf="@+id/mySettingsTitle" />
-
-                    <TextView
-                        android:id="@+id/mySettingsTitle"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginTop="5dp"
-                        android:text="My Settings"
-                        android:textColor="@color/black"
-                        android:textSize="25sp"
-                        android:textStyle="normal"
-                        app:layout_constraintStart_toEndOf="@+id/settingsImage"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                    <ImageView
-                        android:id="@+id/settingsImage"
-                        android:layout_marginStart="10dp"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:src="@drawable/ic_baseline_settings_24"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-                </androidx.constraintlayout.widget.ConstraintLayout>
-            </androidx.cardview.widget.CardView>
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-        <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/myActivityConstraintLayout"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="30dp"
             android:layout_width="match_parent"
             android:layout_height="75dp"
             app:layout_constraintStart_toStartOf="parent"
@@ -175,7 +104,7 @@
                     android:layout_height="match_parent">
 
                     <Button
-                        android:id="@+id/button3"
+                        android:id="@+id/myNutritionButton"
                         android:layout_width="40dp"
                         android:layout_height="100dp"
                         android:text=">"
@@ -189,18 +118,18 @@
                         android:layout_marginTop="10dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="View your Activity"
+                        android:text="View your Nutrition"
                         android:textColor="@color/black"
                         app:layout_constraintStart_toEndOf="@+id/activityImage"
-                        app:layout_constraintTop_toBottomOf="@+id/myActivityTitle" />
+                        app:layout_constraintTop_toBottomOf="@+id/myNutrition" />
 
                     <TextView
-                        android:id="@+id/myActivityTitle"
+                        android:id="@+id/myNutrition"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="5dp"
-                        android:text="My Activity"
+                        android:text="My Nutrition"
                         android:textColor="@color/black"
                         android:textSize="25sp"
                         android:textStyle="normal"
@@ -212,7 +141,7 @@
                         android:layout_marginStart="10dp"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/ic_baseline_history_24"
+                        android:src="@drawable/ic_baseline_bar_chart_24"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -224,7 +153,7 @@
             android:id="@+id/myRoutesConstraintView"
             android:layout_width="match_parent"
             android:layout_height="75dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="30dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/myAccountConstraintLayout">
@@ -259,18 +188,18 @@
                         android:layout_marginTop="10dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="View your Saved Routes"
+                        android:text="Manage your Notifications"
                         android:textColor="@color/black"
                         app:layout_constraintStart_toEndOf="@+id/routeImage"
-                        app:layout_constraintTop_toBottomOf="@+id/myRoutesTitle" />
+                        app:layout_constraintTop_toBottomOf="@+id/myPlannerHistory" />
 
                     <TextView
-                        android:id="@+id/myRoutesTitle"
+                        android:id="@+id/myPlannerHistory"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="5dp"
-                        android:text="My Routes"
+                        android:text="My Notifications"
                         android:textColor="@color/black"
                         android:textSize="25sp"
                         android:textStyle="normal"
@@ -282,7 +211,7 @@
                         android:layout_marginStart="10dp"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/ic_baseline_route_24"
+                        android:src="@drawable/ic_baseline_notifications_24"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -326,7 +255,7 @@
             android:id="@+id/myAccountConstraintLayout"
             android:layout_width="match_parent"
             android:layout_height="75dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="30dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/profileBannerView">
@@ -347,7 +276,7 @@
                     android:layout_height="match_parent">
 
                     <Button
-                        android:id="@+id/myAccountButton"
+                        android:id="@+id/myRecipesButton"
                         android:layout_width="40dp"
                         android:layout_height="100dp"
                         android:text=">"
@@ -361,16 +290,16 @@
                         android:layout_marginTop="10dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Update your Account"
+                        android:text="View your Recipes"
                         android:textColor="@color/black"
                         app:layout_constraintStart_toEndOf="@+id/accountImage"
-                        app:layout_constraintTop_toBottomOf="@+id/myAccountTitle" />
+                        app:layout_constraintTop_toBottomOf="@+id/myRecipeTitle" />
 
                     <TextView
-                        android:id="@+id/myAccountTitle"
+                        android:id="@+id/myRecipeTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="My Account"
+                        android:text="My Recipes"
                         android:textSize="25sp"
                         android:textStyle="normal"
                         android:textColor="@color/black"
@@ -384,7 +313,7 @@
                         android:layout_marginStart="10dp"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/ic_baseline_person_pin_24"
+                        android:src="@drawable/ic_baseline_dinner_dining_24"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />

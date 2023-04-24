@@ -23,6 +23,7 @@ public class StoreSelectionActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(StoreSelectionActivity.this, MainActivity.class);
+                intent.putExtra("Store" , 0);
                 startActivity(intent);
                 finish();
             }
@@ -33,6 +34,7 @@ public class StoreSelectionActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(StoreSelectionActivity.this, MainActivity.class);
+                intent.putExtra("Store" , 1);
                 startActivity(intent);
                 finish();
             }
@@ -43,6 +45,7 @@ public class StoreSelectionActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(StoreSelectionActivity.this, MainActivity.class);
+                intent.putExtra("Store" , 2);
                 startActivity(intent);
                 finish();
             }
