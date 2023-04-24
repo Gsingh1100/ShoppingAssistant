@@ -1087,15 +1087,15 @@ public class MealPlanTab extends Fragment {
 
 
 
-                        Spinner spinner10 = getView().findViewById(R.id.spinnerMeal7);
+                        Spinner spinner10 = getView().findViewById(R.id.spinnerMeal10);
                         Meal meal10 = breakfastMeals.get(spinner10.getSelectedItemPosition()-1);
                         weeklyPlan.add(new DayPlan(meal10.getId(), dateString, meal10.getCategory()));
 
-                        Spinner spinner11 = getView().findViewById(R.id.spinnerMeal8);
+                        Spinner spinner11 = getView().findViewById(R.id.spinnerMeal11);
                         Meal meal11 = lunchMeals.get(spinner11.getSelectedItemPosition()-1);
                         weeklyPlan.add(new DayPlan(meal11.getId(), dateString, meal11.getCategory()));
 
-                        Spinner spinner12 = getView().findViewById(R.id.spinnerMeal9);
+                        Spinner spinner12 = getView().findViewById(R.id.spinnerMeal12);
                         Meal meal12 = dinnerMeals.get(spinner12.getSelectedItemPosition()-1);
                         weeklyPlan.add(new DayPlan(meal12.getId(), dateString, meal12.getCategory()));
 
@@ -1105,15 +1105,15 @@ public class MealPlanTab extends Fragment {
 
 
 
-                        Spinner spinner13 = getView().findViewById(R.id.spinnerMeal7);
+                        Spinner spinner13 = getView().findViewById(R.id.spinnerMeal13);
                         Meal meal13 = breakfastMeals.get(spinner13.getSelectedItemPosition()-1);
                         weeklyPlan.add(new DayPlan(meal13.getId(), dateString, meal13.getCategory()));
 
-                        Spinner spinner14 = getView().findViewById(R.id.spinnerMeal8);
+                        Spinner spinner14 = getView().findViewById(R.id.spinner14);
                         Meal meal14 = lunchMeals.get(spinner14.getSelectedItemPosition()-1);
                         weeklyPlan.add(new DayPlan(meal14.getId(), dateString, meal14.getCategory()));
 
-                        Spinner spinner15 = getView().findViewById(R.id.spinnerMeal9);
+                        Spinner spinner15 = getView().findViewById(R.id.spinner15);
                         Meal meal15 = dinnerMeals.get(spinner15.getSelectedItemPosition()-1);
                         weeklyPlan.add(new DayPlan(meal15.getId(), dateString, meal15.getCategory()));
 
@@ -1123,15 +1123,15 @@ public class MealPlanTab extends Fragment {
 
 
 
-                        Spinner spinner16 = getView().findViewById(R.id.spinnerMeal7);
+                        Spinner spinner16 = getView().findViewById(R.id.spinner16);
                         Meal meal16 = breakfastMeals.get(spinner16.getSelectedItemPosition()-1);
                         weeklyPlan.add(new DayPlan(meal16.getId(), dateString, meal16.getCategory()));
 
-                        Spinner spinner17 = getView().findViewById(R.id.spinnerMeal8);
+                        Spinner spinner17 = getView().findViewById(R.id.spinner17);
                         Meal meal17 = lunchMeals.get(spinner17.getSelectedItemPosition()-1);
                         weeklyPlan.add(new DayPlan(meal17.getId(), dateString, meal17.getCategory()));
 
-                        Spinner spinner18 = getView().findViewById(R.id.spinnerMeal9);
+                        Spinner spinner18 = getView().findViewById(R.id.spinner18);
                         Meal meal18 = dinnerMeals.get(spinner18.getSelectedItemPosition()-1);
                         weeklyPlan.add(new DayPlan(meal18.getId(), dateString, meal18.getCategory()));
 
@@ -1141,15 +1141,15 @@ public class MealPlanTab extends Fragment {
 
 
 
-                        Spinner spinner19 = getView().findViewById(R.id.spinnerMeal7);
+                        Spinner spinner19 = getView().findViewById(R.id.spinner19);
                         Meal meal19 = breakfastMeals.get(spinner19.getSelectedItemPosition()-1);
                         weeklyPlan.add(new DayPlan(meal19.getId(), dateString, meal19.getCategory()));
 
-                        Spinner spinner20 = getView().findViewById(R.id.spinnerMeal8);
+                        Spinner spinner20 = getView().findViewById(R.id.spinner20);
                         Meal meal20 = lunchMeals.get(spinner20.getSelectedItemPosition()-1);
                         weeklyPlan.add(new DayPlan(meal20.getId(), dateString, meal20.getCategory()));
 
-                        Spinner spinner21 = getView().findViewById(R.id.spinnerMeal9);
+                        Spinner spinner21 = getView().findViewById(R.id.spinner21);
                         Meal meal21 = dinnerMeals.get(spinner21.getSelectedItemPosition()-1);
                         weeklyPlan.add(new DayPlan(meal21.getId(), dateString, meal21.getCategory()));
 

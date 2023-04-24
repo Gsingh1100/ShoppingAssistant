@@ -80,5 +80,13 @@ public class RouteFragment extends Fragment {
 
             }
         });
+
+        Button mealPlan = getView().findViewById(R.id.updateMealPlanButton);
+        mealPlan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ((MainActivity)getActivity()).replaceFragment(new MealPlanFragment());
+            }
+        });
     }
 }

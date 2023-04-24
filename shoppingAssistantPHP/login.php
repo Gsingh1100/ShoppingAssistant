@@ -20,7 +20,6 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 
 
     //creating the sql query:
-    //md5 (Message-Digest Algorithm) used for authentication and verification
     $sql = "SELECT * FROM users WHERE username='$username'";
 
     //execeutes the query

@@ -133,38 +133,27 @@
                                 android:src="@drawable/dinnerimgapp"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toEndOf="@+id/dinnerIDView"
+                                app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent" />
 
                             <View
                                 android:id="@+id/dinnerIDView"
-                                android:layout_width="50dp"
-                                android:layout_height="match_parent"
-                                app:layout_constraintBottom_toBottomOf="parent"
+                                android:layout_width="match_parent"
+                                android:layout_height="20dp"
+                                android:background="@drawable/todays_menu_tags"
+                                app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="parent"
-                                app:layout_constraintVertical_bias="0.0"
-                                android:background="@drawable/todays_menu_tags"/>
+                                app:layout_constraintTop_toTopOf="parent" />
 
-                            <TextView
-                                android:id="@+id/dinnerItemTextView"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:rotation="270"
-                                android:text="Curry"
-                                android:textColor="@color/black"
-                                app:layout_constraintBottom_toBottomOf="@+id/dinnerIDView"
-                                app:layout_constraintEnd_toEndOf="@+id/dinnerIDView"
-                                app:layout_constraintTop_toTopOf="@+id/dinnerIDView" />
 
                             <TextView
                                 android:id="@+id/dinnerTagView"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:rotation="270"
                                 android:layout_marginEnd="25dp"
                                 android:text="Dinner:"
                                 android:textColor="@color/black"
+                                android:textSize="10sp"
                                 android:textStyle="bold"
                                 app:layout_constraintBottom_toBottomOf="@+id/dinnerIDView"
                                 app:layout_constraintEnd_toEndOf="@+id/dinnerIDView"
@@ -197,39 +186,27 @@
                                 android:src="@drawable/lunchimgapp"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toEndOf="@+id/lunchIDView"
+                                app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent" />
 
                             <View
                                 android:id="@+id/lunchIDView"
-                                android:layout_width="50dp"
-                                android:layout_height="match_parent"
+                                android:layout_width="match_parent"
+                                android:layout_height="20dp"
                                 android:background="@drawable/todays_menu_tags"
-                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="parent"
-                                app:layout_constraintVertical_bias="0.0" />
+                                app:layout_constraintTop_toTopOf="parent" />
 
-                            <TextView
-                                android:id="@+id/lunchItemTextView"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:rotation="270"
-                                android:layout_marginStart="5dp"
-                                android:text="Baguette"
-                                android:textColor="@color/black"
-                                app:layout_constraintBottom_toBottomOf="@+id/lunchIDView"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="@+id/lunchIDView" />
 
                             <TextView
                                 android:id="@+id/lunchTagView"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginEnd="25dp"
-                                android:rotation="270"
                                 android:text="Lunch:"
                                 android:textColor="@color/black"
+                                android:textSize="10sp"
                                 android:textStyle="bold"
                                 app:layout_constraintBottom_toBottomOf="@+id/lunchIDView"
                                 app:layout_constraintEnd_toEndOf="@+id/lunchIDView"
@@ -263,40 +240,29 @@
                                 android:src="@drawable/breakfastimgapp"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintStart_toEndOf="@+id/breakfastIDView"
+                                app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent" />
 
                             <View
                                 android:id="@+id/breakfastIDView"
-                                android:layout_width="50dp"
-                                android:layout_height="match_parent"
+                                android:layout_width="match_parent"
+                                android:layout_height="20dp"
                                 android:background="@drawable/todays_menu_tags"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
                                 app:layout_constraintVertical_bias="0.0" />
 
-                            <TextView
-                                android:id="@+id/breakfastItemTextView"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:rotation="270"
-                                android:textStyle="normal"
-                                android:textColor="@color/black"
-                                android:text="Granola"
-                                android:layout_marginStart="5dp"
-                                app:layout_constraintBottom_toBottomOf="@+id/breakfastIDView"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="@+id/breakfastIDView" />
+
 
                             <TextView
                                 android:id="@+id/breakfastTagView"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:rotation="270"
                                 android:layout_marginEnd="25dp"
                                 android:text="Breakfast:"
                                 android:textColor="@color/black"
+                                android:textSize="10sp"
                                 android:textStyle="bold"
                                 app:layout_constraintBottom_toBottomOf="@+id/breakfastIDView"
                                 app:layout_constraintEnd_toEndOf="@+id/breakfastIDView"
@@ -479,6 +445,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="210dp"
+                        android:layout_height="320dp"
+                        android:alpha="0.5"
+                        android:src="@drawable/favouritesimage"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/favouritesHeaderView" />
+
                     <TextView
                         android:id="@+id/favouritesHeaderView"
                         android:layout_width="wrap_content"
@@ -495,7 +471,7 @@
                         android:id="@+id/favouritesButton"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="View All"
+                        android:text="Add"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent" />

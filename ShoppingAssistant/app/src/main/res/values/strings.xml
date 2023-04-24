@@ -11,4 +11,187 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    <string name="softBoiledEggsMacros"> kcal: 191, fat: 13g, saturates: 4g, carbs: 0g, sugars: 0g, protein: 19g, salt: 0.5g</string>
+    <string name="porridgeMacros"> kcal: 266, fat: 2g, saturates: 1g, carbs: 53g, sugars: 34g, protein: 12g, salt: 0.24g</string>
+    <string name="pancakesMacros"> kcal: 350, fat: 17g, saturates: 6g, carbs: 33g, sugars: 2g, fibre: 2g, protein: 14g, salt: 1g</string>
+    <string name="frenchToastMacros"> kcal: 401, fat: 29g, saturates: 12g, carbs: 26g, sugars: 7g, fibre: 1g, protein: 9g, salt: 0.8g</string>
+    <string name="salmonBagelMacros"> kcal: 368, fat: 11g, saturates: 4g, carbs: 39g, sugars: 6g, fibre: 6g, protein: 24g, salt: 1.5g</string>
+    <string name="wrapsMacros"> kcal: 477, fat: 19g, saturates: 5g, carbs: 46g, sugars: 16g, fibre: 4g, protein: 28g, salt: 1.7g</string>
+    <string name="jacketPotatoMacros"> kcal: 420, fat: 22g, saturates: 11g, carbs: 43g, sugars: 5g, fibre: 4g,protein: 15g, salt: 3g</string>
+    <string name="chickRiceMacros"> kcal: 495, fat: 13g, saturates: 2g, carbs: 70g, sugars: 15g, fibre: 5g, protein: 41g, salt: 0.39g</string>
+    <string name="padThaiMacros"> kcal: 1004, fat: 45g, saturates: 7g, carbs: 87g, sugars: 24g, fibre: 6g, protein: 60g, salt: 5.73g</string>
+    <string name="chickSaladMacros"> kcal: 352, fat: 19g, saturates: 4g, carbs: 14g, sugars: 11g, fibre: 5g, protein: 29g, salt: 0.8g</string>
+    <string name="pastaBakeMacros"> kcal: 575, fat: 30g, saturates: 14g, carbs: 41g, sugars: 9g, fibre: 5g, protein: 33g, salt: 0.5g</string>
+    <string name="fishChipsMacros"> kcal: 689, fat: 27g, saturates: 6g, carbs: 61g, sugars: 6g, fibre: 8g, protein: 24g, salt: 1.6g</string>
+    <string name="spagBolMacros"> kcal: 624, fat: 25g, saturates: 10g, carbs: 58g, sugars: 12g, fibre: 12g, protein: 35g, salt: 1.6g</string>
+    <string name="lambCurryMacros"> kcal: 470, fat: 29g, saturates: 10g, carbs: 11g, sugars: 8g, fibre: 3g, protein: 39g, salt: 0.3g</string>
+
+    <string name="soft_boiled_eggs_info">(STEP 1)
+Fill a medium sized saucepan with water and bring to a rolling boil.
+
+(STEP 2)
+Make sure your eggs aren not fridge cold. By having the eggs at room temperature, it will be less of a shock for the egg reaching the hot water and therefore less likely to crack. You can also use an egg pricker to make a very small hole in each egg before boiling, which will also reduce the chances of it cracking in the heat. Slowly lower the eggs into the water using a spoon.
+
+(STEP 3)
+Set your timer for 4-5 mins for runny/dippy eggs to serve with soldiers, or 6-7 mins for soft-boiled eggs for a salad. If serving in a salad, plunge the eggs into a bowl of cold water as soon as the timer goes off – this will stop them cooking and cool the shells quickly for peeling.</string>
+
+
+    <string name="porridge_info">(STEP 1)
+In a medium-sized saucepan, mix the oats, cinnamon, sugar, milk and half the sliced bananas. Bring to the boil, stirring occasionally. Turn down the heat and cook for 4-5 mins, stirring all the time.
+
+(STEP 2)
+Remove and divide between 4 bowls, top with the remaining banana, strawberries, a dollop of yogurt and a sprinkle of cinnamon.</string>
+
+
+    <string name="pancakes_info">(STEP 1)
+Separate the egg, putting the white and yolk in separate bowls. Mix the egg yolk with the flour, baking powder and milk to make a smooth paste.
+
+(STEP 2)
+Beat the egg white and a pinch of salt with an electric whisk (or by hand) until fluffy and holding its shape. Gently fold the egg white into the yolk mixture. Be extra careful not to knock any of the air out.
+
+(STEP 3)
+Heat the butter and oil in a non-stick frying pan. Dollop a third of the mixture into the pan and cook on each side for 1-2 mins or until golden brown. Repeat with the remaining mixture to make three pancakes. Drizzle over some maple syrup or honey and serve with berries, if you like.</string>
+
+
+    <string name="french_toast_info">STEP 1
+Whisk together the eggs, milk, cream, vanilla and cinnamon. Lay the brioche slices in a single layer in a shallow dish and pour the egg mixture over them. Allow to soak for 2-3 mins, then carefully turn over and soak for 2 mins more.
+
+STEP 2
+Heat 1 tbsp of the vegetable oil and butter in a non-stick frying pan over a medium heat until foaming. Carefully lift 2 slices of the soaked brioche out of the dish and add to the frying pan. Fry for 3 mins on each side, until golden and crisp, then place on a wire rack over a baking tray in a warm oven while you repeat with the remaining slices.
+
+STEP 3
+Serve dusted in icing sugar and scattered with fresh berries, if you like.</string>
+
+
+    <string name="salmon_bagel_info">(STEP 1)
+Grease and line a loaf or terrine tin (about 650g) with cling film – if you only have a standard 900g tin it will still be fine, just a bit flatter. Arrange the whole dill fronds and a few nice slivers of the smoked salmon on the bottom (this will be the top of the terrine so you want it to look quite neat).
+
+(STEP 2)
+In a food processor, pulse half the cooked salmon fillets, half the remaining smoked salmon trimmings and the cream cheese with some seasoning. Don’t overmix as you want it to have a bit of texture. Fold in half the dill, all the spring onions and the rest of the poached and smoked salmon so that you have some nice flakes of fish running through the pâté. Scrape into the tin, smooth the surface and chill for at least 2 hrs or up to 2 days in advance.
+
+(STEP 3)
+To serve, heat oven to 200C/180C fan/ gas 6. Arrange the bagel halves in a single layer on a baking tray and brush each one with some oil. Sprinkle on a little of the dill and some sea salt, then bake for about 10-12 mins, until crisp and light golden. (If the oven is full, these can be done earlier and served at room temp.) Turn the terrine tin upside down and use the cling film to remove it. Unwrap and serve on a platter with the bagel toasts.
+
+</string>
+
+
+    <string name="wraps_info">(STEP 1)
+Mix the chicken with the lime juice, chilli powder and garlic.
+
+(STEP 2)
+Heat the oil in a non-stick frying pan then fry the chicken for a couple of mins – it will cook very quickly so keep an eye on it. Meanwhile, warm the wraps following the pack instructions or, if you have a gas hob, heat them over the flame to slightly char them. Do not let them dry out or they are difficult to roll.
+
+(STEP 3)
+Squash half an avocado onto each wrap, add the peppers to the pan to warm them through then pile onto the wraps with the chicken, and sprinkle over the coriander. Roll up, cut in half and eat with your fingers.</string>
+
+
+    <string name="jacket_potato_info">(STEP 1)
+Heat oven to 200C/180C fan/gas 6. Scrub the potatoes and dry well, then prick in several places with a fork. Bake directly on the oven shelf for 1-1½ hrs, until they feel soft when squeezed.
+
+(STEP 2)
+After 30 mins, heat the oil in a pan and gently cook the carrot and celery for 10 mins until softened. Add the beans, tomatoes and paprika and cook gently for a further 5 mins until the tomatoes are softened and pulpy. Stir in 100ml water and the Worcestershire sauce, cook for a further 5 mins then cover and keep warm.
+
+(STEP 3)
+Split open the potatoes and spoon in the beans. Scatter with chives and serve.</string>
+
+
+    <string name="chick_rice_info">(STEP 1)
+Melt half the butter in a frying pan with a lid. Fry the shallot for a couple of minutes, then add the chicken and carrot. Fry the veg until starting to brown, then add the cinnamon and lemon, and season well. Stir in the rice and raisins, then add the stock and bring to a simmer.
+
+(STEP 2)
+Scatter the chickpeas on top, then cover with the lid. Cook for 15 mins over a low heat until the rice has absorbed all the stock – if the rice is still firm, add 50ml water. Stand for 5 mins, then fluff up the rice. Dot over the remaining butter, then serve.</string>
+
+
+    <string name="pad_thai_info">(STEP 1)
+Soak the noodles in warm water for about 20 mins or until al dente, then drain. Meanwhile, make the sauce by mixing together the tamarind paste, fish sauce, sugar, lime and siracha until smooth.
+
+(STEP 2)
+Heat half the oil in a frying pan or a wok over a medium heat. Add the garlic and chilli and fry for 30 seconds until fragrant. Tip in the chicken and cook for 5 mins until golden. Add the coriander stalks, spring onions and turnip (if using), and fry for 1 min. Add in the soaked noodles, 50ml of the chicken stock and the prepared sauce. Keep stir-frying the noodles until they’re starting to dry, then add the sauce. Stir everything together and cook over a high heat for 3 mins until the noodles are just cooked. Add a splash more water if needed.
+
+(STEP 3)
+When the sauce has reduced, scatter over the beansprouts and fold them into the noodles. Push everything to one side of the pan, then pour in the rest of the oil on the empty side and crack in the eggs. Fry for 2 mins until the white is just set and beginning to crisp around the edges, then roughly scramble the runny yolks in with the whites. When the eggs have just set, combine with the noodles.
+
+(STEP 4)
+Scatter over half of the peanuts and quickly toss together. Divide between two plates with the remaining peanuts and spring onion, the lime wedges and soy sauce on the side.</string>
+
+
+    <string name="chick_salad_info">(STEP 1)
+Combine the dressing ingredients in a small bowl and set aside.
+
+(STEP 2)
+Remove all the meat from the chicken, shred into large chunks and pop in a large bowl. Add the cabbage, carrots, spring onions, chillies and half the coriander. Toss together with the dressing and pile onto a serving plate, then scatter over the remaining coriander and peanuts.</string>
+
+
+    <string name="pasta_bake_info">(STEP 1)
+Heat 2 tbsp of the oil in a pan over a medium heat and fry the onion gently for 10-12 mins. Add the garlic and chilli flakes and cook for 1 min. Tip in the tomatoes and sugar and season to taste. Simmer uncovered for 20 mins or until thickened, then stir through the mascarpone.
+
+(STEP 2)
+Heat 1 tbsp of oil in a non-stick frying pan.
+
+(STEP 3)
+Heat the oven to 220C/200C fan/gas 7. Cook the penne following pack instructions. Drain and toss with the remaining oil. Tip the pasta into a medium sized ovenproof dish. Top with the cheddar, mozzarella and parsley. Bake for 20 mins or until golden brown and bubbling.</string>
+
+
+    <string name="fish_chips_info">(STEP 1)
+Heat oven to 200C/fan 180C/gas 4. Peel and chop the potatoes into thick chips, then toss with the olive oil and some salt. Arrange on a large non-stick baking tray and roast for 20 mins, turning halfway.
+
+(STEP 2)
+Lightly toast the bread, then pulse briefly in a food processor for coarse breadcrumbs. Dust the fish in flour, shaking off the excess, then dip into the egg, then breadcrumbs to coat thoroughly. Roast the fish with the chips for a further 20 mins, until both are golden.
+
+(STEP 3)
+Just before the fish and chips are ready, boil the peas for 3-4 mins, then drain and mash. </string>
+
+
+    <string name="spag_bol_info">(STEP 1)
+Put a large saucepan on a medium heat and add 1 tbsp olive oil.
+
+(STEP 2)
+Reduce the heat and add the 2 onions, 2 carrots, 2 garlic cloves, all finely chopped, then fry for 10 mins. Stir the veg often until it softens.
+
+(STEP 3)
+Increase the heat to medium-high, add 500g lamb mince and cook stirring for 3-4 mins until the meat is browned all over.
+
+(STEP 4)
+Add 2 tinned tomatoes tins, the finely chopped leaves from 3/4 small pack basil, 2 bay leaves, 2, 1 beef stock cube, 1 deseeded and finely chopped red chilli (if using), and 6 halved tomatoes. Stir with a wooden spoon, breaking up the plum tomatoes.
+
+(STEP 5)
+Bring to the boil, reduce to a gentle simmer and cover with a lid. Cook for 1 hr 15 mins stirring occasionally, until you have a rich, thick sauce.
+
+(STEP 6)
+Add the 75g grated cheese, check the seasoning and stir.
+
+(STEP 7)
+When the bolognese is nearly finished, cook 400g spaghetti following the pack instructions.
+
+(STEP 8)
+Drain the spaghetti and either stir into the bolognese sauce, or serve the sauce on top. Serve with more grated cheese, the remaining basil leaves and crusty bread, if you like.</string>
+
+
+    <string name="lamb_curry_info">(STEP 1)
+Put 1/2 the thumb-sized piece of ginger, 2 quartered onions and 4 garlic cloves in a food processor with 300ml water. Blitz to a smooth purée.
+
+(STEP 2)
+Scrape down the sides with a spoon and blitz again to make it as smooth as you can. Tip into a deep sauté pan, cover with a lid and simmer for 15 mins.
+
+(STEP 3)
+Remove the lid and cook for 5 mins more, stirring occasionally. By now the liquid should be all gone. If not, cook a little longer.
+
+(STEP 4)
+Turn up the heat and fry, stirring, for 3-5 mins until it starts to colour.
+
+(STEP 5)
+Stir in 1 cinnamon stick, 1 tbsp ground coriander, 1 tsp ground cumin, 1 tsp ground turmeric, then add 750g leg of lamb. Stir-fry until the lamb changes colour.
+
+(STEP 6)
+Tip in 400g can chopped tomatoes with a can of water and 1 deseeded and sliced red or green chilli, season well, cover and leave to simmer for 1 hr.
+
+(STEP 7)
+Stir in the finely chopped stalks from a small bunch coriander, re-cover and cook for a final 30 mins until the lamb is tender. Add a splash of water if necessary to loosen the consistency as it cooks.
+
+(STEP 8)
+Stir in the roughly chopped coriander leaves and serve with basmati rice (white rice). </string>
+
+
 </resources>

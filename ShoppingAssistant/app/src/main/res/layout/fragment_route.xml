@@ -15,22 +15,21 @@
 
         <Button
             android:id="@+id/displayRouteButton"
-            android:layout_marginBottom="180dp"
             android:layout_width="170dp"
             android:layout_height="70dp"
+            android:layout_marginBottom="180dp"
             android:text="Display Route"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/updateShoppingListButton" />
+            app:layout_constraintTop_toBottomOf="@+id/updateMealPlanButton" />
 
         <Button
             android:id="@+id/updateMealPlanButton"
-            android:layout_marginTop="180dp"
             android:layout_width="170dp"
             android:layout_height="70dp"
             android:text="Update Meal Plan"
-            app:layout_constraintBottom_toTopOf="@+id/updateShoppingListButton"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -46,15 +45,7 @@
             app:layout_constraintTop_toTopOf="parent"
             android:alpha="0.5"/>
 
-        <Button
-            android:id="@+id/updateShoppingListButton"
-            android:layout_width="170dp"
-            android:layout_height="70dp"
-            android:text="Update Shopping List"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

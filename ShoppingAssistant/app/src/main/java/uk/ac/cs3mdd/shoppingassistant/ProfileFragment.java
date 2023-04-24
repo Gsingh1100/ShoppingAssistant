@@ -1,5 +1,7 @@
 package uk.ac.cs3mdd.shoppingassistant;
 
+import static android.content.Context.MODE_PRIVATE;
+
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -13,6 +15,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.google.android.material.textfield.TextInputEditText;
 
@@ -75,8 +78,6 @@ public class ProfileFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         logoutBtn = getView().findViewById(R.id.logoutButton);
 
-
-
         logoutBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -88,9 +89,44 @@ public class ProfileFragment extends Fragment {
 
                 Intent intent = new Intent(getContext().getApplicationContext(), LoginActivity.class);
                 startActivity(intent);
-                getActivity().finish();
             }
         });
+
+
+        Button viewRecipes = getView().findViewById(R.id.myRecipesButton);
+        viewRecipes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext().getApplicationContext(), MyRecipes.class);
+                startActivity(intent);
+            }
+        });
+
+        Button viewHistory = getView().findViewById(R.id.viewRoutesButton);
+        viewHistory.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext().getApplicationContext(), MyHistory.class);
+                startActivity(intent);
+            }
+        });
+
+        Button viewNutrition = getView().findViewById(R.id.myNutritionButton);
+        viewNutrition.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext().getApplicationContext(), MyNutrition.class);
+                startActivity(intent);
+            }
+        });
+
+
+        SharedPreferences sharedPreferences = getContext().getSharedPreferences("Login", MODE_PRIVATE);
+        TextView name = getView().findViewById(R.id.usersNameTextView);
+        name.setText(sharedPreferences.getString("firstName", null));
+
+
+
     }
 
     @Override
